@@ -1,6 +1,13 @@
+import Header from "../components/Header"
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 export default function About() {
 
+
     return (
+        <>
+        <Header/>
         <main className="container py-4">
         <p class="fs-1">About Our Restaurants</p>
         <div className="fs-5 text-faded">
@@ -10,6 +17,8 @@ export default function About() {
         </div>
         
         </main>
+        </>
+        
     )
 
 }

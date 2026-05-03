@@ -1,7 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from "../components/Header"
 
 export default function Restaurants() {
   return (
+    <>
+    <Header/>
     <main className="container py-4">
         <p class="fs-1">Restaurants</p>
       <div>
@@ -49,5 +52,7 @@ export default function Restaurants() {
       
 
     </main>
+    </>
+    
   );
 }
